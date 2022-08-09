@@ -1,13 +1,14 @@
 package superlist;
 
-public class ListNode<E> implements Comparable<E>
+public class ListNode<E>
 {
 	private E value;
-	private ListNode<E> nextValue;
+	private ListNode<E> next;
+	private ListNode<E> previous;
 	
-	public ListNode(E value)
+	public ListNode(E e)
 	{
-		nextValue = null;
+		value = e;
 	}
 	
 	public E getValue()
@@ -15,28 +16,49 @@ public class ListNode<E> implements Comparable<E>
 		return value;
 	}
 	
-	public ListNode<E> getNextValue()
+	public ListNode<E> getNext()
 	{
-		return nextValue;
+		return next;
 	}
 	
-	public void setNextValue(ListNode<E> newValue)
+	public void setNext(ListNode<E> e)
 	{
-		nextValue = newValue;
+		next = e;
 	}
 	
 	public boolean hasNext()
 	{
-		
+		if(next == null)
+		{
+			return false;
+		}
+			
+		else
+		{
+			return true;
+		}
+	}
+
+
+	public ListNode<E> getPrevious()
+	{
+		return previous;
+	}
+	
+	public void setPrevious(ListNode<E> e)
+	{
+		previous = e;
 	}
 	
 	public boolean hasPrevious()
 	{
-		
-	}
-	
-	public int compareTo(E o) 
-	{
-		return 0;
+		if(previous == null)
+		{
+			return false;
+		}	
+		else
+		{
+			return true;
+		}
 	}
 }
