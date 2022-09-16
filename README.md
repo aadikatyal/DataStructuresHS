@@ -5,4 +5,4 @@
 - <a href="https://github.com/aadikatyal/DataStructures/tree/master/src/node">TreeNodeSetTask</a>
 - <a href="https://github.com/aadikatyal/DataStructures/tree/master/src/superlist">SuperList</a>
 - <a href="https://github.com/aadikatyal/DataStructures/tree/master/src/MineSweeper">Mineweeper</a>
-- <a href="https://github.com/aadikatyal/DataStructures/tree/master/src/MusicBox">MusicBox</a>
+- <a href="https://github.com/aadikatyal/DataStructures/tree/master/src/musicbox">MusicBox</a>
