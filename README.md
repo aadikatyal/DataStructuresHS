@@ -1,3 +1,3 @@
 # Data Structures
 
-Compilation of all data structures algorithms written in the 2021-22 school year.
+A compilation of all my Data Structures problems/projects developed in the 2021-2022 school year.
